@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: zw.co.booker.bookstore.BookstoreApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.457 s <<< FAILURE! - in zw.co.booker.bookstore.BookstoreApplicationTests
+contextLoads  Time elapsed: 2.985 s  <<< ERROR!
+java.lang.StackOverflowError
+

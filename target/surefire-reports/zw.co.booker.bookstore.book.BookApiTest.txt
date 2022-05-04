@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: zw.co.booker.bookstore.book.BookApiTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.621 s <<< FAILURE! - in zw.co.booker.bookstore.book.BookApiTest
+purchaseBook  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookApi' defined in file [/home/tarbabyelvis/IdeaProjects/bookstore/target/classes/zw/co/booker/bookstore/book/BookApi.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'zw.co.booker.bookstore.book.BookService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'zw.co.booker.bookstore.book.BookService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+create  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookApi' defined in file [/home/tarbabyelvis/IdeaProjects/bookstore/target/classes/zw/co/booker/bookstore/book/BookApi.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'zw.co.booker.bookstore.book.BookService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'zw.co.booker.bookstore.book.BookService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
